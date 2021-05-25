@@ -3,7 +3,7 @@ About r-freetypeharfbuzz
 
 Home: https://CRAN.R-project.org/package=freetypeharfbuzz
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-freetypeharfbuzz-feedstock/blob/master/LICENSE.txt)
 
