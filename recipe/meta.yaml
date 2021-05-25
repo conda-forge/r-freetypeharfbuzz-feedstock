@@ -48,11 +48,13 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=freetypeharfbuzz
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Unlike other tools that dynamically link to the 'Cairo' stack, 'freetypeharfbuzz' is statically linked to specific versions of the 'FreeType' and 'harfbuzz' libraries (2.9 and 1.7.6 respectively). This ensures deterministic computation of text box extents for situations where reproducible results are crucial (for
     instance unit tests of graphics).
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+    - LICENSE
 
 extra:
   recipe-maintainers:
